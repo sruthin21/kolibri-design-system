@@ -10,8 +10,6 @@
        typically to the overlay container element #k-overlay.
        'appendToBody' prop changedto 'appendToEl' and related changes.
   -->
-
-
   <span>
     <transition
       :name="transition"

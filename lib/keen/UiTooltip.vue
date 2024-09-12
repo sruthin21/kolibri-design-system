@@ -1,7 +1,7 @@
 <template>
 
   <div class="ui-tooltip">
-    <slot></slot>
+    <slot>Hello World</slot>
   </div>
 
 </template>
