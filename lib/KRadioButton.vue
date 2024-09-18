@@ -37,7 +37,7 @@
       </div>
 
       <label
-        dir="auto"
+        :dir="labelDir"
         class="k-radio-button-label"
         :for="id"
         :class="{ 'visuallyhidden': !showLabel }"
@@ -98,6 +98,14 @@
       showLabel: {
         type: Boolean,
         default: true,
+      },
+      /**
+       * RTL dir of the text label
+       * Options: 'auto', 'ltr', 'rtl', null.
+       */
+      labelDir: {
+        type: String,
+        default: 'auto',
       },
       /**
        * Component `data` with which to associate this radio button and its siblings
@@ -185,6 +193,9 @@
           "KRadioButton: 'value' prop is deprecated and will be removed in a future release. Please use 'buttonValue' instead."
         );
       }
+      if (process.env.NODE_ENV !== 'production') {
+        this.checkForKRadioButtonGroup();
+      }
     },
     methods: {
       /**
@@ -236,6 +247,18 @@
        */
       setTabIndex(val) {
         this.tabIndex = val;
+      },
+
+      checkForKRadioButtonGroup() {
+        let parent = this.$parent;
+        while (parent) {
+          if (parent.$options.name === 'KRadioButtonGroup') {
+            return; // Found KRadioButtonGroup, no warning needed
+          }
+          parent = parent.$parent;
+        }
+        // If we get here, no KRadioButtonGroup was found
+        console.warn('KRadioButton should be nested inside a KRadioButtonGroup component.');
       },
     },
   };
