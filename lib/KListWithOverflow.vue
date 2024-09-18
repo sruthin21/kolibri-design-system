@@ -151,7 +151,7 @@
           const itemSize = this.getSize(item);
           itemsSizes.push(itemSize);
         }
-
+        "Added A commit"
         const overflowItemsIdx = [];
         for (let i = 0; i < list.children.length; i++) {
           const item = list.children[i];
