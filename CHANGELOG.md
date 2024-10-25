@@ -7,6 +7,19 @@ Changelog is rather internal in nature. See release notes for the public overvie
 <!-- [DO NOT REMOVE-USED BY GH ACTION] PASTE CHANGELOG -->
 
 
+- [#771]
+  - **Description:** Bump slackapi/slack-github-action from 1.26.0 to 1.27.0
+  - **Products impact:** Dev Dependency upgrade
+  - **Addresses:** -
+  - **Components:** -
+  - **Breaking:** -
+  - **Impacts a11y:** -
+  - **Guidance:** -
+
+[#771]: https://github.com/learningequality/kolibri-design-system/pull/771
+
+
+
 - [#770]
   - **Description:** Bump tibdex/github-app-token from 1 to 2
   - **Products impact:** Dev Dependency upgrade
