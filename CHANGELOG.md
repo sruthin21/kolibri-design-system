@@ -7,6 +7,19 @@ Changelog is rather internal in nature. See release notes for the public overvie
 <!-- [DO NOT REMOVE-USED BY GH ACTION] PASTE CHANGELOG -->
 
 
+- [#807]
+  - **Description:** Bump serve-static from 1.15.0 to 1.16.0
+  - **Products impact:** Dev Dependency upgrade
+  - **Addresses:** -
+  - **Components:** -
+  - **Breaking:** -
+  - **Impacts a11y:** -
+  - **Guidance:** -
+
+[#807]: https://github.com/learningequality/kolibri-design-system/pull/807
+
+
+
 - [#771]
   - **Description:** Bump slackapi/slack-github-action from 1.26.0 to 1.27.0
   - **Products impact:** Dev Dependency upgrade
