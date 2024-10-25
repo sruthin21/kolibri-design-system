@@ -7,6 +7,19 @@ Changelog is rather internal in nature. See release notes for the public overvie
 <!-- [DO NOT REMOVE-USED BY GH ACTION] PASTE CHANGELOG -->
 
 
+- [#770]
+  - **Description:** Bump tibdex/github-app-token from 1 to 2
+  - **Products impact:** Dev Dependency upgrade
+  - **Addresses:** -
+  - **Components:** -
+  - **Breaking:** -
+  - **Impacts a11y:** -
+  - **Guidance:** -
+
+[#770]: https://github.com/learningequality/kolibri-design-system/pull/770
+
+
+
 - [#777]
   - **Description:** Bump express from 4.19.2 to 4.20.0
   - **Products impact:** Dev Dependency upgrade
