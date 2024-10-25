@@ -10,6 +10,7 @@
           type="checkbox"
           dir="auto"
 
+          :aria-labelledby="ariaLabelledBy"
           :checked.prop="isChecked"
           :disabled="disabled"
           :name="name"
@@ -41,6 +42,13 @@
   export default {
     name: 'KSwitch',
     props: {
+      /**
+       *arialabelledBy used for complex layout
+       */
+      ariaLabelledBy: {
+        type: String,
+        default: null,
+      },
       /**
        * Current value of the switch state: on or off
        */
