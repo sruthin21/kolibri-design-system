@@ -42,8 +42,9 @@
   export default {
     name: 'KSwitch',
     props: {
-      /**
-       *arialabelledBy used for complex layout
+       /*
+       * Specifies the ID of an element that labels this switch component.
+       * Useful for accessibility to provide a label through an external element when `label` is empty
        */
       ariaLabelledBy: {
         type: String,
