@@ -7,6 +7,19 @@ Changelog is rather internal in nature. See release notes for the public overvie
 <!-- [DO NOT REMOVE-USED BY GH ACTION] PASTE CHANGELOG -->
 
 
+- [#808]
+  - **Description:** Adds ariaLabelledBy prop to KSwitch.
+  - **Products impact:** Improved accessibility.
+  - **Addresses:** -[KSwitch]: Add ariaLabelledBy prop #806
+  - **Components:** KSwitch
+  - **Breaking:** -
+  - **Impacts a11y:** -
+  - **Guidance:**-
+
+[#808]: https://github.com/learningequality/kolibri-design-system/pull/808
+
+
+
 - [#799]
   - **Description:**  copy FocusTrap from kolibri into KFocusTrap in the KDS and use it in the KModal
   - **Products impact:** -
