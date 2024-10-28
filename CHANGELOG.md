@@ -7,6 +7,19 @@ Changelog is rather internal in nature. See release notes for the public overvie
 <!-- [DO NOT REMOVE-USED BY GH ACTION] PASTE CHANGELOG -->
 
 
+- [#799]
+  - **Description:**  copy FocusTrap from kolibri into KFocusTrap in the KDS and use it in the KModal
+  - **Products impact:** -
+  - **Addresses:** #746
+  - **Components:** KModal , KFocuaTrap
+  - **Breaking:** no
+  - **Impacts a11y:** -
+  - **Guidance:** -
+
+[#799]: https://github.com/learningequality/kolibri-design-system/pull/799
+
+
+
 - [#807]
   - **Description:** Bump serve-static from 1.15.0 to 1.16.0
   - **Products impact:** Dev Dependency upgrade
