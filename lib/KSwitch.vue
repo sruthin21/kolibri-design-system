@@ -42,7 +42,7 @@
   export default {
     name: 'KSwitch',
     props: {
-       /*
+      /*
        * Specifies the ID of an element that labels this switch component.
        * Useful for accessibility to provide a label through an external element when `label` is empty
        */
