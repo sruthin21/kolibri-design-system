@@ -7,6 +7,19 @@ Changelog is rather internal in nature. See release notes for the public overvie
 <!-- [DO NOT REMOVE-USED BY GH ACTION] PASTE CHANGELOG -->
 
 
+- [#810]
+  - **Description:** Bump KDS version to 5.0.0-rc8.
+  - **Products impact:** -.
+  - **Addresses:** -.
+  - **Components:** -.
+  - **Breaking:** -.
+  - **Impacts a11y:** -.
+  - **Guidance:** -.
+
+[#810]: https://github.com/learningequality/kolibri-design-system/pull/810
+
+
+
 - [#808]
   - **Description:** Adds ariaLabelledBy prop to KSwitch.
   - **Products impact:** Improved accessibility.
