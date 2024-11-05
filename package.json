@@ -83,8 +83,5 @@
   },
   "browserslist": [
     "extends browserslist-config-kolibri"
-  ],
-  "volta": {
-    "node": "10.24.1"
-  }
+  ]
 }
