@@ -18,14 +18,14 @@
     <template #title>
       <span
         class="title-placeholder"
-        :style="{ backgroundColor: $themePalette.grey.v_50 }"
+        :style="{ backgroundColor: $themePalette.grey.v_100 }"
       >
       </span>
     </template>
     <template #belowTitle>
       <span
         class="below-title-placeholder"
-        :style="{ backgroundColor: $themePalette.grey.v_50 }"
+        :style="{ backgroundColor: $themePalette.grey.v_100 }"
       >
       </span>
     </template>
