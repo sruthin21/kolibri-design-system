@@ -7,6 +7,30 @@ Changelog is rather internal in nature. See release notes for the public overvie
 <!-- [DO NOT REMOVE-USED BY GH ACTION] PASTE CHANGELOG -->
 
 
+- [#796]
+  - **Description:** Adds an option to override `KCardGrid` base layouts partially or completely via the new prop `layoutOverride`
+  - **Products impact:** new API
+  - **Addresses:** Allows advanced grids customization
+  - **Components:** `KCardGrid`
+  - **Breaking:** no
+  - **Impacts a11y:** no
+  - **Guidance:** -
+
+[#796]: https://github.com/learningequality/kolibri-design-system/pull/796
+
+- [#796]
+  - **Description:** Adds loading skeletons to `KCardGrid` and a way to configure them via the new prop `skeletonsConfig`
+  - **Products impact:** new API
+  - **Addresses:** Ensures smooth loading experience
+  - **Components:** `KCardGrid`
+  - **Breaking:** no
+  - **Impacts a11y:** no
+  - **Guidance:** -
+
+[#796]: https://github.com/learningequality/kolibri-design-system/pull/796
+
+
+
 - [#810]
   - **Description:** Bump KDS version to 5.0.0-rc8.
   - **Products impact:** -.
