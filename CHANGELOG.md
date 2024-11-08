@@ -7,6 +7,133 @@ Changelog is rather internal in nature. See release notes for the public overvie
 <!-- [DO NOT REMOVE-USED BY GH ACTION] PASTE CHANGELOG -->
 
 
+- [#810]
+  - **Description:** Bump KDS version to 5.0.0-rc8.
+  - **Products impact:** -.
+  - **Addresses:** -.
+  - **Components:** -.
+  - **Breaking:** -.
+  - **Impacts a11y:** -.
+  - **Guidance:** -.
+
+[#810]: https://github.com/learningequality/kolibri-design-system/pull/810
+
+
+
+- [#808]
+  - **Description:** Adds ariaLabelledBy prop to KSwitch.
+  - **Products impact:** Improved accessibility.
+  - **Addresses:** -[KSwitch]: Add ariaLabelledBy prop #806
+  - **Components:** KSwitch
+  - **Breaking:** -
+  - **Impacts a11y:** -
+  - **Guidance:**-
+
+[#808]: https://github.com/learningequality/kolibri-design-system/pull/808
+
+
+
+- [#799]
+  - **Description:**  copy FocusTrap from kolibri into KFocusTrap in the KDS and use it in the KModal
+  - **Products impact:** -
+  - **Addresses:** #746
+  - **Components:** KModal , KFocuaTrap
+  - **Breaking:** no
+  - **Impacts a11y:** -
+  - **Guidance:** -
+
+[#799]: https://github.com/learningequality/kolibri-design-system/pull/799
+
+
+
+- [#807]
+  - **Description:** Bump serve-static from 1.15.0 to 1.16.0
+  - **Products impact:** Dev Dependency upgrade
+  - **Addresses:** -
+  - **Components:** -
+  - **Breaking:** -
+  - **Impacts a11y:** -
+  - **Guidance:** -
+
+[#807]: https://github.com/learningequality/kolibri-design-system/pull/807
+
+
+
+- [#771]
+  - **Description:** Bump slackapi/slack-github-action from 1.26.0 to 1.27.0
+  - **Products impact:** Dev Dependency upgrade
+  - **Addresses:** -
+  - **Components:** -
+  - **Breaking:** -
+  - **Impacts a11y:** -
+  - **Guidance:** -
+
+[#771]: https://github.com/learningequality/kolibri-design-system/pull/771
+
+
+
+- [#770]
+  - **Description:** Bump tibdex/github-app-token from 1 to 2
+  - **Products impact:** Dev Dependency upgrade
+  - **Addresses:** -
+  - **Components:** -
+  - **Breaking:** -
+  - **Impacts a11y:** -
+  - **Guidance:** -
+
+[#770]: https://github.com/learningequality/kolibri-design-system/pull/770
+
+
+
+- [#777]
+  - **Description:** Bump express from 4.19.2 to 4.20.0
+  - **Products impact:** Dev Dependency upgrade
+  - **Addresses:** -
+  - **Components:** -
+  - **Breaking:** -
+  - **Impacts a11y:** -
+  - **Guidance:** -
+
+[#777]: https://github.com/learningequality/kolibri-design-system/pull/777
+
+
+
+- [#803]
+  - **Description:** Adds the option to get back to the unsorted state after sorting a KTable column, making it flow to be unsorted->ascending -> descending -> unsorted.
+  - Products impact: updated API
+  - Addresses: https://github.com/learningequality/kolibri-design-system/issues/797
+  - Components: KTable
+  - Breaking: no
+  - Impacts : Adds flexibility in how users can interact with the table, especially when sorting is not desired or needs to be reset.
+
+
+
+- [#800]
+  - **Description:** Merges v4.6.0 into develop
+  - **Products impact:** -.
+  - **Addresses:** -.
+  - **Components:** -.
+  - **Breaking:** -
+  - **Impacts a11y:** -
+  - **Guidance:** -.
+
+[#800]: https://github.com/learningequality/kolibri-design-system/pull/800
+
+
+
+- [#798]
+  - **Description:**  Adds custom computed property `computedAriaLabel` that dynamically sets the `ariaLabel` for `KIconButton` based on the `tooltip` prop when `ariaLabel` is not provided.
+  - **Products impact:** none
+  - **Addresses:** #793
+  - **Components:** `KIconButton`
+  - **Breaking:** no
+  - **Impacts a11y:** Improves accessibility in places where we have tooltips but no aria- label attribute set for `KIconbutton`.
+  - **Guidance:** -
+
+[#798]: https://github.com/learningequality/kolibri-design-system/pull/798
+
+
+
 - [#792]
   - **Description:** Bump KDS version to 5.0.0-rc7.
   - **Products impact:** -.
@@ -697,8 +824,41 @@ Changelog is rather internal in nature. See release notes for the public overvie
 
 <!-- [DO NOT REMOVE-USED BY GH ACTION] PASTE CHANGELOG -->
 
+- [#791]
+  - **Description:** Bump KDS version to 4.6.0.
+  - **Products impact:** -.
+  - **Addresses:** -.
+  - **Components:** -.
+  - **Breaking:** -.
+  - **Impacts a11y:** -.
+  - **Guidance:** -.
+
+[#791]: https://github.com/learningequality/kolibri-design-system/pull/791
+
+- [#782]
+  - **Description:** Update Theme Tokens to the latest specs to comply material design specifications.
+  - **Products impact:** Updated API.
+  - **Addresses:** https://github.com/learningequality/kolibri-design-system/issues/775.
+  - **Components:** -.
+  - **Breaking:** yes.
+  - **Impacts a11y:** no.
+  - **Guidance:** Please update all `v_*` theme tokens using the mapping posted in https://github.com/learningequality/kolibri-design-system/issues/775.
+
+[#782]: https://github.com/learningequality/kolibri-design-system/pull/782
+
+- [#786]
+  - **Description:** Bump KDS version to 4.5.1.
+  - **Products impact:** -.
+  - **Addresses:** -.
+  - **Components:** -.
+  - **Breaking:** -.
+  - **Impacts a11y:** -.
+  - **Guidance:** -.
+
+[#786]: https://github.com/learningequality/kolibri-design-system/pull/786
+
 - [#784]
-  - **Description:** Adds `labelDir` prop to control rtl direction of label.
+  - **Description:** Add `labelDir` prop to control rtl direction of label.
   - **Products impact:** new API.
   - **Addresses:** https://github.com/learningequality/studio/issues/4728.
   - **Components:** KCheckbox, KRadioButton.
