@@ -7,6 +7,19 @@ Changelog is rather internal in nature. See release notes for the public overvie
 <!-- [DO NOT REMOVE-USED BY GH ACTION] PASTE CHANGELOG -->
 
 
+- [#769]
+  - **Description:** Bump tippy.js from 4.2.1 to 4.3.5
+  - **Products impact:** Dev Dependency upgrade
+  - **Addresses:** -
+  - **Components:** -
+  - **Breaking:** -
+  - **Impacts a11y:** -
+  - **Guidance:** -
+
+[#769]: https://github.com/learningequality/kolibri-design-system/pull/769
+
+
+
 - [#811]
   - **Description:** Bump elliptic from 6.5.7 to 6.6.0
   - **Products impact:** Dev Dependency upgrade
