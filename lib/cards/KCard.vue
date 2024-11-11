@@ -532,6 +532,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    width: 100%;
     height: 100%;
     border-radius: 0.5em;
     outline-offset: -1px;
