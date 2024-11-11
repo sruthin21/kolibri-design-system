@@ -7,6 +7,19 @@ Changelog is rather internal in nature. See release notes for the public overvie
 <!-- [DO NOT REMOVE-USED BY GH ACTION] PASTE CHANGELOG -->
 
 
+- [#820]
+  - **Description:** Fixes KCard area not taking available width
+  - **Products impact:** bugfix
+  - **Addresses:** A bug discovered in https://github.com/learningequality/studio/pull/4803
+  - **Components:** `KCard`
+  - **Breaking:** no
+  - **Impacts a11y:** no
+  - **Guidance:** -
+
+[#820]: https://github.com/learningequality/kolibri-design-system/pull/820
+
+
+
 - [#769]
   - **Description:** Bump tippy.js from 4.2.1 to 4.3.5
   - **Products impact:** Dev Dependency upgrade
