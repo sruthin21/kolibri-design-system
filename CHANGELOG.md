@@ -7,6 +7,19 @@ Changelog is rather internal in nature. See release notes for the public overvie
 <!-- [DO NOT REMOVE-USED BY GH ACTION] PASTE CHANGELOG -->
 
 
+- [#815]
+  - **Description:** removed the deprecated dropshadows
+  - **Products impact:**  none
+  - **Addresses:** #725
+  - **Components:** -
+  - **Breaking:** no
+  - **Impacts a11y:** no
+  - **Guidance:**  -
+
+[#815]: https://github.com/learningequality/kolibri-design-system/pull/815
+
+
+
 - [#822]
   - **Description:** Bump KDS version to 5.0.0-rc9.
   - **Products impact:** -.
