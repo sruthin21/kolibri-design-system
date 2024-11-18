@@ -7,6 +7,19 @@ Changelog is rather internal in nature. See release notes for the public overvie
 <!-- [DO NOT REMOVE-USED BY GH ACTION] PASTE CHANGELOG -->
 
 
+- [#827]
+  - **Description:** Ensure visibility of focus-ring on the KDS website in Firefox
+  - **Products impact:** -
+  - **Addresses:** https://github.com/learningequality/kolibri-design-system/issues/206
+  - **Components:** -
+  - **Breaking:** -
+  - **Impacts a11y:** -
+  - **Guidance:** -
+
+[#827]: https://github.com/learningequality/kolibri-design-system/pull/827
+
+
+
 - [#815]
   - **Description:** removed the deprecated dropshadows
   - **Products impact:**  none
