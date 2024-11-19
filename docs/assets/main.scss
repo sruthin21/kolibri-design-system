@@ -16,7 +16,6 @@ code {
   padding-left: 0.25em;
   font-family: 'Source Code Pro', monospace;
   font-weight: 400;
-  white-space: nowrap;
   background-color: #918caf24;
   border-radius: 0.25em;
 }
@@ -50,8 +49,9 @@ a {
   }
 }
 
-*:focus {
-  outline-color: #757575;
+*:focus-visible {
+  outline: 5px solid #757575;
+  outline-offset: 2px;
 }
 
 *::selection {

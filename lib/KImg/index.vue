@@ -7,6 +7,7 @@
         :alt="alternativeText"
         :style="imgStyles"
         @error="onError"
+        @load="onLoad" 
       >
       <span
         v-if="$slots.placeholder"
@@ -141,7 +142,7 @@
        * (3) a progressive loading experience as the colored background
        * is displayed while an image is loading.
        *
-       * Its default value is `$themePalette.grey.v_50`.
+       * Its default value is `$themePalette.grey.v_100`.
        */
       backgroundColor: {
         type: String,
@@ -174,7 +175,7 @@
       baseStyles() {
         const backgroundColor = this.backgroundColor
           ? this.backgroundColor
-          : this.$themePalette.grey.v_50;
+          : this.$themePalette.grey.v_100;
         const borderRadius = this.borderRadius ? this.borderRadius : 0;
 
         return {
@@ -312,9 +313,15 @@
     methods: {
       onError(event) {
         /**
-         * Emitted when the image fails to load. The DOM event that triggered the error is available in the payload.
+         * Emitted when the image fails to load. The DOM event  is available in the payload.
          */
         this.$emit('error', event);
+      },
+      onLoad(event) {
+        /**
+         * Emitted when the image loads successfully. The DOM event is available in the payload.
+         */
+        this.$emit('load', event);
       },
     },
   };
